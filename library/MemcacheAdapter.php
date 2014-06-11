@@ -140,6 +140,5 @@ class MemcacheAdapter
 
     public function __destruct()
     {
-        unset(self::$handle);
     }
 }
